@@ -50,7 +50,7 @@ function calculateLoveScore() {
 
     // Determine the message based on the LoveScore
     if(loveScore < 30){
-        message = "Your LoveScore is " + loveScore + ". Dr Love na noi ani nganlikanda thaptokhwro, thungnaba gi change nemmi hai!";
+        message = "Your LoveScore is " + loveScore + ". Dr Love na noi ani nganlikanda thaptokhwro, thungnaba gi chance nemmi hai!";
     } else if(loveScore >= 30 && loveScore < 60){
         message = "Your LoveScore is " + loveScore + ". Dr Love na haibada, noi ani si thungnabasu yai, saonadanaba hotnou.";    
     } else if(loveScore >= 60 && loveScore <90){
