@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Score Calculator</title>
+</head>
+<body bgcolor="lightblue">
+    <h1>Love Score Calculator</h1>
+    <h2>Full name ebiyu.</h2>
+
+    <label for="yourName">Adomgi Ming: </label>
+    <input type="text" id="yourName" placeholder="Enter your name" oninput="checkInput()">
+
+    <br><br>
+
+    <label for="theirName">Mahakki Ming: </label>
+    <input type="text" id="theirName" placeholder="Enter their name" oninput="checkInput()">
+
+    <br><br>
+
+    <!-- Initially hidden button -->
+    <button id="calculateButton" style="display:none;" onclick="calculateLoveScore()">Calculate Love Score</button>
+
+    <p id="result"></p>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
